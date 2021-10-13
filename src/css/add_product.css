@@ -1,0 +1,17 @@
+.flex-column li:hover{
+    background: rgba(204,204,204,0.4);;
+    color:#ffc107;
+}
+.flex-column ul li{
+    border-top: 1px solid rgba(0,0,0,0.07);
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.wx-200{
+    background: #594f8d;
+    background: rgba(204,204,204,0.4);
+    width: 200px;
+}
