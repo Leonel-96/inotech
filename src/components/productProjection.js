@@ -1,12 +1,14 @@
-import React, {Component} from 'react'
-import { connect } from 'react-redux'
-import { bindActionCreators } from 'redux'
-import Footer from './Footer'
-import Nav_Product from './Nav_Product'
-import T9 from '../images/T9.jpg'
-import '../css/index.css'
-import {FaStar} from 'react-icons/fa'
-import { NavLink } from 'react-router-dom'
+import React, {Component} from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { NavLink } from 'react-router-dom';
+import '../css/index.css';
+import {FaStar} from 'react-icons/fa';
+import Footer from './Footer';
+import Nav_Product from './Nav_Product';
+import T9 from '../images/T9.jpg';
+
+
 
 
 class ProductProjection extends Component {
@@ -17,7 +19,7 @@ class ProductProjection extends Component {
 
             
             <div>
-               <Nav_Product/>
+                    <Nav_Product/>   
                     <div className="container-fluid">
                         <div className="row justify-content-center">
                             <div className="col-lg-8 my-5 d-flex justify-content-center">

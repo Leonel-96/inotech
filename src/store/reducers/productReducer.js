@@ -1,4 +1,4 @@
-export default function(state=[],action){
+export default function (state=[],action){
 
     switch(action.type){
 
@@ -7,9 +7,8 @@ export default function(state=[],action){
 
             newState.push(action.payload)
             
-            return newState
-           break;
-            default:
+            return newState;
+        default:
                 return state
     }
 

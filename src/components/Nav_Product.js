@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {NavLink} from 'react-router-dom'
 import { FaHome,FaUser,FaSignOutAlt,FaRegQuestionCircle,FaSearch} from 'react-icons/fa';
 import T2  from '../images/T2.jpg'
-export default class Nav_Product extends Component {
+class Nav_Product extends Component {
     render() {
         return (
             <div>
@@ -45,3 +45,4 @@ export default class Nav_Product extends Component {
         )
     }
 }
+export default Nav_Product;
